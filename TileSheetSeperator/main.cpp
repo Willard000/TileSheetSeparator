@@ -112,5 +112,7 @@ int main(int argc, const char* const* argv) {
 		int result = stbi_write_png(outputName.c_str(), 48, 48, 4, &tiles[i][0], 0);
 	}
 
+	std::cout << "\n";
+
 	return 0;
 }
